@@ -4,9 +4,8 @@
 <h1>Start JavaScript Practice forrealz this time</h1>
 <h6>More info to come</h6>
 <p>JavaScript</p>
-<!image src = "default.jpg" /> 
-<p>
-<!script type = "text/javascript" src='jquery-1.4-min.js'></script>
+<image src = "default.jpg" height="100" width="100"/> 
+<p>	
 <script type = "text/javascript" src='script1.js'></script>
 </p>
 <p id="functions">
@@ -14,10 +13,34 @@
 <button type="button" onclick=b2D()> Binary to Decimal! </button>
 <button type="button" onclick=letterCounter()> Letter Counter! </button>
 </p>
-<p id="result">
-	<?php
-		echo "Hello World!";
-	?>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.result').click(function(){
+			$('.result').css('color=red');
+		});
+	});
+</script>
+<p class="result">
+	Hello there!
+</p>	
+<p>
+<a href = "second.html"> Another page! </a>
 </p>
+<h1>Input testing</h1>
+Select your favorite color: <input type="color" name="favcolor" multiple><br>
+Email: <input type="email" name="email" autofocus><br>
+Input a number between 0 and 100: <input type="number" name="quantity" min="-10" max="100"><br>
+
+Input this: <input type="week" name="week_year" max="2014"><br>
+<section id="video practice">
+<h1>Video practice lol jk</h1> Both "Input Testing" and "Video Practice" are h1 headers, but the latter is in a section, so its font and size are slightly different
+
+</section>
+<script>
+
+
+
+</script>
 <HTML/>
 
