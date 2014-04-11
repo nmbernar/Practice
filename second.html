@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<title>Second Page</title>
+	<h1>Yet another page!</h1>
+	<nav>
+		<a href = "http://www.assassinscreed.ubi.com">Assassin's Creed</a>|
+		<a href = "http://www.nintendo.com">Nintendo</a>|
+		<a href = "http://www.microsoft.com">Microsoft</a>
+	</nav>
+	<figue>
+		<img src="default.jpg"/>
+		<figcaption>The Italian Plumbers are at it again!</figcaption>
+	</figure>
+	<section>
+		<p>
+			This is the <mark>highlighted</mark> part of the sentence.
+		</p>
+	</section>
+	<p>
+	<form action="data.asp">
+		I'm thinking of a number between 0-20 <input type="number" name="quantity" min="0" max="20">
+		<input type="submit">
+	</form>
+	</p>
+	<canvas id="myCanvas" width="300" height="300" style="border:1px solid #000000;">
+	</canvas>
+	<script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.fillStyle = "#FF0000";
+	ctx.fillRect(50,50,150,150);
+	var cty = c.getContext("2d");
+	cty.moveTo(50,50); //Moves pointer to position 50, 50
+	cty.lineTo(200, 200); //defines end of line
+	cty.stroke(); //draws line
+	</script>	
+</html>

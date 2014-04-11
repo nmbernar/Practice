@@ -1,46 +1,36 @@
 <!DOCTYPE html>
-<HTML>
-<Title>Nicholli Bernard</Title>
-<h1>Start JavaScript Practice forrealz this time</h1>
-<h6>More info to come</h6>
-<p>JavaScript</p>
-<image src = "default.jpg" height="100" width="100"/> 
-<p>	
-<script type = "text/javascript" src='script1.js'></script>
-</p>
-<p id="functions">
-<button type="button" onclick=d2B()> Decimal to Binary! </button>
-<button type="button" onclick=b2D()> Binary to Decimal! </button>
-<button type="button" onclick=letterCounter()> Letter Counter! </button>
-</p>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$('.result').click(function(){
-			$('.result').css('color=red');
-		});
-	});
-</script>
-<p class="result">
-	Hello there!
-</p>	
-<p>
-<a href = "second.html"> Another page! </a>
-</p>
-<h1>Input testing</h1>
-Select your favorite color: <input type="color" name="favcolor" multiple><br>
-Email: <input type="email" name="email" autofocus><br>
-Input a number between 0 and 100: <input type="number" name="quantity" min="-10" max="100"><br>
-
-Input this: <input type="week" name="week_year" max="2014"><br>
-<section id="video practice">
-<h1>Video practice lol jk</h1> Both "Input Testing" and "Video Practice" are h1 headers, but the latter is in a section, so its font and size are slightly different
-
-</section>
-<script>
-
-
-
-</script>
-<HTML/>
+<html>
+	<title>Nicholli Bernard</title>
+	<head>
+		<link rel = "stylesheet" type="text/css" href="main.css">
+    	<script type = "text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script type = "text/javascript" src='script1.js'></script>
+	</head>
+	<h3>The Domain of one Nicholli Maxwell Bernard</h3>
+	<body>
+		<nav>
+			<a href = "second.html"> Another page!</a>  |
+			<a href = "sampleform.html"> Yet another page... </a>
+		</nav>
+		<table><tr>
+		<td><div id="functions">
+			<input type="number" name="dinput"/><button type="button" id="button1"> Decimal to Binary! </button>			
+			<input type="text" name="binput"/><button type="button" id="button2"> Binary to Decimal! </button>
+			<input type="text" name="nameinput"/><button type="button" id="button3"> Letter Counter! </button>
+			<input type="number" name="pinput"/><button type="button" id="button4"> Is it prime? </button>
+		</div></td>
+		<td id="result"><div>Answer Box: <br>Result goes here</div></td>
+		<td>
+		<p>1</p>
+		<p>2</p>
+		<p>3</p>
+		<p>4</p>
+		<p>5</p>
+		<p>6</p>
+		<p>7</p>
+		</td>
+		</tr></table>
+	</body>
+</html>
 
